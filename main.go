@@ -135,7 +135,7 @@ func download(coord1 int, dim1 string, coord2 int, dim2 string) {
 	found(image)
 
 	// Download ajacent images
-	for _, d1 := range []int{-2, -1, 0, 1, 2} {
+	for _, d1 := range []int{-2, -1, 0, 1, 2, 3, 4} {
 		for _, d2 := range []int{-2, -1, 0, 1, 2} {
 			if d1 == 0 && d2 == 0 {
 				continue
